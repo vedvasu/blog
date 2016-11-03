@@ -20,14 +20,12 @@ body{
 .fullpage{
 	    background-color: white;
 		
-
-		
 }
 .header{  
 
         margin:20px;
-	    background-image: url("disk1.jpg")
-		
+	    background-image: url("diskimg.jpg");
+	    text-align: center;
 
         /*width:100%;
 	    background-color:#665d7b;
@@ -38,7 +36,7 @@ body{
 	width:15%;
 	margin-left:3px;
 }*/
-		ul {
+ul {
              list-style-type: none;
              margin-left: 20px;
 			 margin-right:20px;
@@ -62,6 +60,7 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
 .mheading{
 	    
     
@@ -70,7 +69,36 @@ li a:hover {
 	    width:35%;
 	    font-family: cursive;
 		/*margin-left:20px;*/
-}/*
+}
+.img1{
+
+	 float: left;
+	 width:250px;
+	 height:228px;
+	 overflow: hidden;
+}
+.text{
+
+
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 5em;
+    overflow: hidden;
+    margin-bottom: 90px;
+
+}
+.footer{  
+
+         padding: 1em;
+         background-image:url("diskimg.jpg");
+         color: white;
+         text-align: center;
+
+     }
+
+
+/*
+
 h3{
 	color:#7474d1;
 }
